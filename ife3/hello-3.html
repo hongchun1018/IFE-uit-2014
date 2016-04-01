@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>三栏式布局</title>
+    <style>
+        *{
+            margin: 0 auto;
+           padding: 0;
+        }
+
+        .big-box{
+
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #eee;
+            border: 1px solid #999;
+            position: relative;
+            overflow: hidden;
+
+        }
+        .left{
+            width: 200px;
+            height: 130px;
+            float: left;
+            position: relative;
+            border: 1px solid;
+            border-color: #999;
+            background-color: white;
+        }
+        .team-logo{
+            padding: 20px;
+            float: left;
+            position: relative;
+        }
+        .team-name{
+            padding: 20px 5px;
+             float:right ;
+             /*position: absolute;*/
+
+        }
+
+
+        .right{
+            width: 120px;
+            float: right;
+            background-color: white;
+            border: 1px solid #999;
+        }
+        .pic{
+            padding: 20px;
+        }
+
+
+       .main{
+           position: absolute;
+           background-color: white;
+           border: 1px solid #999;
+           margin-left: 220px;
+           margin-right: 170px;
+           top: 20px;
+
+       }
+
+        h4,h1{
+            padding: 20px;
+            word-wrap: break-word
+        }
+     </style>
+</head>
+<body>
+  <div class="big-box">
+      <div class="left">
+           <div class="team-logo">
+               <img src="imges/3.jpg" width="80px" height="80px">
+           </div>
+           <div class="team-name">UIT 2014</div>
+      </div>
+
+      <div class="main">
+          <h1 style="text-align: center">UIT 2014</h1>
+          <h4>团队简介及成员介绍.............<br>隔壁村儿的刘姥姥，乘着朝阳的第一缕光芒，上山采摘了
+              三个脑洞和黑洞一样大的美少女战士， 又精心萃取一枚小鲜肉，放入祖传香辛料：呆萌少许，聪慧几分，毅力一大勺，
+              经过香煎、烤炙，油焖， 历时七七四十九分钟，合成一盘犀利战队，满室弥香，经久不散~<br><br>团队简介及成员介绍....
+              .........<br>隔壁村儿的刘姥姥，乘着朝阳的第一缕光芒，上山采摘了
+              三个脑洞和黑洞一样大的美少女战士， 又精心萃取一枚小鲜肉，放入祖传香辛料：呆萌少许，聪慧几分，毅力一大勺，
+              经过香煎、烤炙，油焖， 历时七七四十九分钟，合成一盘犀利战队，满室弥香，经久不散~<br><br>团队简介及成员介绍.....
+              ........<br>隔壁村儿的刘姥姥，乘着朝阳的第一缕光芒，上山采摘了
+              三个脑洞和黑洞一样大的美少女战士， 又精心萃取一枚小鲜肉，放入祖传香辛料：呆萌少许，聪慧几分，毅力一大勺，
+              经过香煎、烤炙，油焖， 历时七七四十九分钟，合成一盘犀利战队，满室弥香，经久不散~</h4>
+      </div>
+
+      <div class="right">
+
+          <div class="pic">
+              <img src="imges/3.jpg" width="80px" height="80px">
+          </div>
+
+          <div class="pic">
+              <img src="imges/3.jpg" width="80px" height="80px">
+          </div>
+
+          <div class="pic">
+              <img src="imges/3.jpg" width="80px" height="80px">
+          </div>
+
+      </div>
+  </div>
+</body>
+</html>
